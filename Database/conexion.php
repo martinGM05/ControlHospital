@@ -1,9 +1,6 @@
 <?php
-    // $user = "equipo";
-    // $pwd = "123";
-    // $dbname = "DB_Hospital";
-    $user = "root";
-    $pwd = "";
+    $user = "equipo";
+    $pwd = "123";
     $dbname = "DB_Hospital";
 
     try{
