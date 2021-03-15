@@ -1,0 +1,17 @@
+<?php
+    // $user = "equipo";
+    // $pwd = "123";
+    // $dbname = "DB_Hospital";
+    $user = "root";
+    $pwd = "";
+    $dbname = "DB_Hospital";
+
+    try{
+        $cn = new PDO('mysql:host=localhost; dbname='.$dbname, $user, $pwd,
+         array(PDO::MYSQL_ATTR_INIT_COMMAND => "Set names utf8"));
+        
+    }catch (Exception $ex){
+        echo "Ha ocurrido el error ".$ex->getMessage();
+    }
+
+?>

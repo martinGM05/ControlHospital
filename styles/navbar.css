@@ -1,0 +1,46 @@
+.nav-link {
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 40px;
+  white-space: nowrap;
+  float: right;
+  justify-content: right;
+}
+
+.dropdown-item {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.circulo {
+  width: 8%;
+  height: 8%;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.circulo > .imagen {
+  width: 125%;
+  height: 125%;
+  margin-bottom: 5px;
+  border-radius: 20px;
+}
+
+.dropdown-menu{
+  background: rgba(56, 55, 58, 0.938);
+}
+
+.dropdown-item{
+  font-size: 16px;
+  color: #c6c8cecc;
+}
+
+.dropdown-item:hover{
+  background: rgba(12, 17, 175, 0.377);
+}
+
+#iconsItems{
+  margin-right: 10px;
+}
